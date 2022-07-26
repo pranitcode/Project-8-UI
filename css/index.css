@@ -1,0 +1,103 @@
+:root {
+    --white:#fff;
+    --btn:linear-gradient(to right, rgb(112, 119, 225), rgb(255, 0, 234));
+    --h1:#3e4794;
+    --h4:#a7a9bc;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif; ;
+}
+
+body {
+    background-image: url("../images/backcover.svg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: right top;   
+}
+
+
+nav {
+    display: flex;
+    justify-content:space-around;
+    padding:3rem 12rem;
+}
+
+.nav-items {  
+display: flex;
+flex-direction: row;
+gap:3rem;
+font-weight: bold;
+
+}
+
+button {
+    background:var(--btn);
+    width:80px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    padding:0 9px;
+    color:var(--white);
+}
+
+.imgs-div img:nth-child(3) {
+
+    position: absolute;
+    left: 62rem;
+    bottom:3rem;
+}
+.imgs-div img:first-child  {
+    position: absolute;
+    left: 59rem;
+    bottom: 15rem;
+
+}
+.imgs-div img:nth-child(2)  {
+    position: absolute;
+    left: 65rem;
+    bottom: 22rem;
+
+}
+
+
+
+
+
+.left-section {
+    display: flex;
+    flex-direction:column;
+  
+justify-content: center;
+
+width:800px;
+
+padding-top:11rem ;
+gap:3rem;
+padding-left: 21rem;
+
+}
+.left-section h1{
+ color:var(--h1);
+ font-size:5rem;
+}
+.left-section  h4  {
+line-height:2rem;
+color: var(--h4);
+font-weight:normal;
+}
+
+.learn-more-btn {
+    width:18rem;
+    height:4rem;
+    border-radius:30px;
+    font-size:1.7rem;
+    color:var(--white);
+    background: linear-gradient(to right, rgb(112, 119, 225), rgb(255, 0, 234));
+}
+
+ 

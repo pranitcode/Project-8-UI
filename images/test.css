@@ -1,0 +1,5 @@
+.imgs-div img:nth-child(3) {
+    position: absolute;
+    left: 62rem;
+    bottom:0rem;
+}
